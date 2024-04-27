@@ -1,0 +1,4 @@
+Existem varias formas de lidar com dados ausentes em um dataframe, pode excluir as linhas ou colunas com valores ausentes (mas tem seus contras que seria a perda de outros dados)
+atravez do método .dropna(), pode tambem preencher os dados ausentes com outro valor como o 0 com o método .fillna(0),
+tambem pode substituir valores especificos por outro valor com o método .replace(),e simplesmente ignorar os valores ausentes onde muitos dos métodos do pandas possui
+o parametro skipna por padrão sendo True assim ignorando valores ausentes.
